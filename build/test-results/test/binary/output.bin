@@ -1,0 +1,64 @@
+[1;31m
+Start test 1[0m
+
+)  .   ____          _            __ _ _
+* /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
++( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+, \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
++  '  |____| .__|_| |_|_| |_\__, | / / / /
+* =========|_|==============|___/=/_/_/_/
+, :: Spring Boot ::                (v2.5.6)
+
+ê2022-04-06 19:10:42.622  INFO 11080 --- [    Test worker] cinema.Main                              : Starting Main using Java 17.0.2 on DESKTOP-V463AUQ with PID 11080 (started by golds in C:\Users\golds\IdeaProjects\Cinema Room REST Service\Cinema Room REST Service\task)
+¶2022-04-06 19:10:42.625  INFO 11080 --- [    Test worker] cinema.Main                              : No active profile set, falling back to default profiles: default
+ì2022-04-06 19:10:43.796  INFO 11080 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+2022-04-06 19:10:43.809  INFO 11080 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ï2022-04-06 19:10:43.809  INFO 11080 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+ò2022-04-06 19:10:43.887  INFO 11080 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+•2022-04-06 19:10:43.887  INFO 11080 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1218 ms
+õ2022-04-06 19:10:44.589  INFO 11080 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+¢2022-04-06 19:10:44.621  INFO 11080 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+õ2022-04-06 19:10:44.632  INFO 11080 --- [    Test worker] cinema.Main                              : Started Main in 2.363 seconds (JVM running for 3.092)
+ü2022-04-06 19:10:44.938  INFO 11080 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+é2022-04-06 19:10:44.939  INFO 11080 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ü2022-04-06 19:10:44.941  INFO 11080 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+[1;31m
+Start test 2[0m
+[1;31m
+Start test 3[0m
+ó2022-04-06 19:10:45.129  INFO 11080 --- [io-28852-exec-3] cinema.controllers.Controller            : Before ticket purchase:81 available, 0 purchased.
+ñ2022-04-06 19:10:45.130  INFO 11080 --- [io-28852-exec-3] cinema.controllers.Controller            : Ticket was purchased: 80 available, 1 purchased.
+[1;31m
+Start test 4[0m
+ó2022-04-06 19:10:45.145  INFO 11080 --- [io-28852-exec-4] cinema.controllers.Controller            : Before ticket purchase:80 available, 1 purchased.
+[1;31m
+Start test 5[0m
+ó2022-04-06 19:10:45.165  INFO 11080 --- [io-28852-exec-5] cinema.controllers.Controller            : Before ticket purchase:80 available, 1 purchased.
+ó2022-04-06 19:10:45.175  INFO 11080 --- [io-28852-exec-6] cinema.controllers.Controller            : Before ticket purchase:80 available, 1 purchased.
+ó2022-04-06 19:10:45.182  INFO 11080 --- [io-28852-exec-7] cinema.controllers.Controller            : Before ticket purchase:80 available, 1 purchased.
+[1;31m
+Start test 6[0m
+ó2022-04-06 19:10:45.195  INFO 11080 --- [io-28852-exec-8] cinema.controllers.Controller            : Before ticket purchase:80 available, 1 purchased.
+ñ2022-04-06 19:10:45.195  INFO 11080 --- [io-28852-exec-8] cinema.controllers.Controller            : Ticket was purchased: 79 available, 2 purchased.
+ñ2022-04-06 19:10:45.211  INFO 11080 --- [io-28852-exec-9] cinema.controllers.Controller            : Before ticket return: 79 available, 2 purchased.
+ñ2022-04-06 19:10:45.218  INFO 11080 --- [o-28852-exec-10] cinema.controllers.Controller            : Before ticket return: 79 available, 2 purchased.
+ï2022-04-06 19:10:45.219  INFO 11080 --- [o-28852-exec-10] cinema.controllers.Controller            : After ticket return: 80 available, 1 purchased.
+[1;31m
+Start test 7[0m
+[1;31m
+Start test 8[0m
+í2022-04-06 19:10:45.243  INFO 11080 --- [io-28852-exec-2] cinema.controllers.Controller            : Stats: 80 available, 1 purchased, 10 income.
+[1;31m
+Start test 9[0m
+ó2022-04-06 19:10:45.250  INFO 11080 --- [io-28852-exec-3] cinema.controllers.Controller            : Before ticket purchase:80 available, 1 purchased.
+ñ2022-04-06 19:10:45.250  INFO 11080 --- [io-28852-exec-3] cinema.controllers.Controller            : Ticket was purchased: 79 available, 2 purchased.
+[1;31m
+Start test 10[0m
+í2022-04-06 19:10:45.256  INFO 11080 --- [io-28852-exec-4] cinema.controllers.Controller            : Stats: 79 available, 2 purchased, 18 income.
+[1;31m
+Start test 11[0m
+ñ2022-04-06 19:10:45.262  INFO 11080 --- [io-28852-exec-5] cinema.controllers.Controller            : Before ticket return: 79 available, 2 purchased.
+ï2022-04-06 19:10:45.262  INFO 11080 --- [io-28852-exec-5] cinema.controllers.Controller            : After ticket return: 80 available, 1 purchased.
+[1;31m
+Start test 12[0m
+í2022-04-06 19:10:45.268  INFO 11080 --- [io-28852-exec-6] cinema.controllers.Controller            : Stats: 80 available, 1 purchased, 10 income.
